@@ -1,4 +1,5 @@
-const isDev = process.env.NODE_ENV !== 'production'
+const isProd = process.env.NODE_ENV === 'production'
+const isDev = !isProd
 
 export default {
   head: {
@@ -15,7 +16,7 @@ export default {
     fix: true
   },
 
-  modern: isDev,
+  modern: isProd,
 
   build: {
     parallel: isDev,
