@@ -10,6 +10,7 @@ At first, it won't be much different than using [create-nuxt-app](https://github
 - Prettier `yarn format`
 - TailwindCSS
 - Axios
+- Enforces [Conventional Commits](https://www.conventionalcommits.org/) via [Husky](https://github.com/typicode/husky) (git hooks).
 
 
 ## Usage
