@@ -10,7 +10,7 @@ export default {
 
   modules: ['@nuxtjs/axios'],
 
-  devModules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module'],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module'],
 
   eslint: {
     fix: true
