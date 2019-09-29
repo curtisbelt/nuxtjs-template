@@ -11,6 +11,8 @@ export default {
     trailingSlash: false
   },
 
+  css: ['assets/css/tailwind'],
+
   plugins: [],
 
   modules: ['@nuxtjs/axios'],
