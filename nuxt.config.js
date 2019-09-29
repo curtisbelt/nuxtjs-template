@@ -3,7 +3,9 @@ const isDev = !isProd
 
 export default {
   head: {
-    title: 'Nuxt.js Template'
+    titleTemplate: (titleChunk) =>
+      titleChunk ? `${titleChunk} - Nuxt.js Template` : 'Nuxt.js Template'
+  },
   },
 
   plugins: [],
