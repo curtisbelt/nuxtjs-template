@@ -6,6 +6,9 @@ export default {
     titleTemplate: (titleChunk) =>
       titleChunk ? `${titleChunk} - Nuxt.js Template` : 'Nuxt.js Template'
   },
+
+  router: {
+    trailingSlash: false
   },
 
   plugins: [],
