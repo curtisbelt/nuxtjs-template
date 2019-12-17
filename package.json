@@ -18,7 +18,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.8.0",
     "@nuxtjs/tailwindcss": "^1.2.0",
-    "nuxt": "^2.10.2"
+    "nuxt": "^2.11.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
