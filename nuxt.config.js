@@ -4,11 +4,11 @@ const isDev = !isProd
 export default {
   head: {
     titleTemplate: (titleChunk) =>
-      titleChunk ? `${titleChunk} - Nuxt.js Template` : 'Nuxt.js Template'
+      titleChunk ? `${titleChunk} - Nuxt.js Template` : 'Nuxt.js Template',
   },
 
   router: {
-    trailingSlash: false
+    trailingSlash: false,
   },
 
   css: ['assets/css/tailwind'],
@@ -20,7 +20,7 @@ export default {
   buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module'],
 
   eslint: {
-    fix: true
+    fix: true,
   },
 
   modern: isProd,
@@ -28,6 +28,6 @@ export default {
   build: {
     parallel: isDev,
     cache: isDev,
-    hardSource: isDev
-  }
+    hardSource: isDev,
+  },
 }
