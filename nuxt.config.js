@@ -17,7 +17,7 @@ export default {
 
   modules: ['@nuxtjs/axios'],
 
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module'],
+  buildModules: ['@nuxtjs/eslint-module'],
 
   eslint: {
     fix: true,
@@ -26,6 +26,21 @@ export default {
   modern: isProd,
 
   build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        'postcss-flexbugs-fixes': {},
+      },
+      preset: {
+        autoprefixer: {
+          flexbox: 'no-2009',
+        },
+        stage: 3,
+        features: {
+          'custom-properties': false,
+        },
+      },
+    },
     parallel: isDev,
     cache: isDev,
     hardSource: isDev,
