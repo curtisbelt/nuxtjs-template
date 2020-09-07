@@ -1,3 +1,11 @@
 module.exports = {
-  theme: {},
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
+  theme: {
+    extend: {},
+  },
+  variants: {},
+  plugins: [],
 }
