@@ -34,6 +34,6 @@
     "postcss-flexbugs-fixes": "^4.2.1",
     "prettier": "^2.1.1",
     "standard-version": "^9.0.0",
-    "tailwindcss": "^1.8.4"
+    "tailwindcss": "^1.8.8"
   }
 }
