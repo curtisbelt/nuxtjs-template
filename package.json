@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
-    "nuxt": "^2.14.4"
+    "nuxt": "^2.14.6"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
