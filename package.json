@@ -16,15 +16,15 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
-    "nuxt": "^2.14.4"
+    "nuxt": "^2.14.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.2",
-    "@commitlint/config-conventional": "^9.1.2",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@nuxtjs/eslint-config": "3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.8.1",
+    "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-nuxt": "^1.0.0",
@@ -32,8 +32,8 @@
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.3.0",
     "postcss-flexbugs-fixes": "^4.2.1",
-    "prettier": "^2.1.1",
+    "prettier": "^2.1.2",
     "standard-version": "^9.0.0",
-    "tailwindcss": "^1.8.4"
+    "tailwindcss": "^1.8.10"
   }
 }
