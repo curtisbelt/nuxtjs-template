@@ -33,7 +33,7 @@
     "husky": "^4.3.0",
     "postcss-flexbugs-fixes": "^4.2.1",
     "prettier": "^2.1.2",
-    "standard-version": "^9.0.0",
+    "standard-version": "^9.3.0",
     "tailwindcss": "^1.8.10"
   }
 }
