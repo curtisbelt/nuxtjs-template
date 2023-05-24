@@ -1,31 +1,42 @@
-# Nuxt.js Template
+# Nuxt 3 Minimal Starter
 
-> My personal [Nuxt.js](https://github.com/nuxt/nuxt.js) template used for starting other projects.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-At first, it won't be much different than using [create-nuxt-app](https://github.com/nuxt/create-nuxt-app) with the equivalent options selected - however I will continue to maintain this repo, adding features and configurations that meet my personal preferences.
+## Setup
 
-## Features :tada:
+Make sure to install the dependencies:
 
-- ESLint `yarn lint`
-- Prettier `yarn format`
-- TailwindCSS
-- Axios
-- Enforces [Conventional Commits](https://www.conventionalcommits.org/) via [Husky](https://github.com/typicode/husky) (git hooks).
-
-
-## Usage
-
-```sh
-# install dependencies
+```bash
+# yarn
 yarn install
 
-# serve with hot reload at localhost:3000
-yarn dev
+# npm
+npm install
 
-# build for production and launch server
-yarn build
-yarn start
-
-# generate static project
-yarn generate
+# pnpm
+pnpm install
 ```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`
+
+```bash
+npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
